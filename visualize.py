@@ -26,3 +26,4 @@ def plot_column_dist(train, test, column):
     ax.set_xticklabels(merged.index, rotation='vertical')
     return ax
 
+# plot_column_dist(train, test, 'brand_name')
